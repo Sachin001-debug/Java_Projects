@@ -1,3 +1,5 @@
+import java.awt.Checkbox;
+
 import javax.swing.JDesktopPane;
 import javax.swing.JFrame;
 import javax.swing.JInternalFrame;
@@ -41,7 +43,8 @@ public class multipleInternalFrame extends JFrame {
 
         //ading panel to frame
         add(desktopPane);
-        setVisible(true);
+
+       
     }
 
     public static void main(String[] args) {

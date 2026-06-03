@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.JFrame;
+
 // Custom Exception
 class CsitException extends Exception {
     public CsitException(String message) {
@@ -28,5 +30,6 @@ public class Main {
         }
 
         sc.close();
+
     }
 }
