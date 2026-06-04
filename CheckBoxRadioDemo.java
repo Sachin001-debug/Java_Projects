@@ -10,7 +10,7 @@ public class CheckBoxRadioDemo extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        // ================= CHECKBOX =================
+        // CHECKBOX
         JLabel hobbyLabel = new JLabel("Select Hobbies:");
 
         JCheckBox music = new JCheckBox("Music");
@@ -22,14 +22,14 @@ public class CheckBoxRadioDemo extends JFrame {
         add(dance);
         add(sports);
 
-        // ================= RADIO BUTTON =================
+        //RADIO BUTTON
         JLabel genderLabel = new JLabel("Select Gender:");
 
         JRadioButton male = new JRadioButton("Male");
         JRadioButton female = new JRadioButton("Female");
         JRadioButton other = new JRadioButton("Other");
 
-        // Group radio buttons (important)
+        // Group radio buttons
         ButtonGroup bg = new ButtonGroup();
         bg.add(male);
         bg.add(female);
