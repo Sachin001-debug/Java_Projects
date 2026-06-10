@@ -13,6 +13,8 @@ class MyRunnable implements Runnable {
     }
 }
 
+
+
 public class multiThreading {
     public static void main(String[] args) {
 
