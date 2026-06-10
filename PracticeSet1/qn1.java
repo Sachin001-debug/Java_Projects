@@ -1,3 +1,6 @@
+package PracticeSet1;
+//Write a Java program to create a class Student having data members name, roll, and marks. Input values and display them using object.
+
 import java.util.Scanner;
 
 class Student {

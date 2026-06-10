@@ -4,7 +4,7 @@ import java.awt.*;
 public class CheckBoxRadioDemo extends JFrame {
 
     public CheckBoxRadioDemo() {
-
+    
         setTitle("Checkbox & RadioButton Demo");
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
